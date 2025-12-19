@@ -49,5 +49,11 @@ a {
     font-family: calibari;
     font-size: 1rem;
     padding: 0px 10px;
-
+}
+.searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: poppins;
 }
