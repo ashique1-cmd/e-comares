@@ -13,11 +13,11 @@ a {
 .logo {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 150px;
 }
 .logo a {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
     text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
     letter-spacing: 1;
@@ -25,10 +25,10 @@ a {
 }
 .searcharia {
     top: 80px;
-    right: 80px;
+    right: 150px;
     position: fixed;
-    width: 170px;
-    height: 45px;
+    width: 280px;
+    height: 80px;
     background-color: #ffff;
     display: flex;
     justify-content: center;
@@ -41,8 +41,8 @@ a {
 }
 .searchbox input {
     border: none;
-    width: 100px;
-    height: 20px;
+    width: 190px;
+    height: 30px;
     outline: none;
     background-color: transparent;
     color: black;
@@ -52,8 +52,97 @@ a {
 }
 .searchbox input::placeholder{
     color: #1d1d1d;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 20px;
     font-family: poppins;
+}
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 320px;
+}
+.section2{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -80%);
+}
+.section2 h1, h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 70px;
+    font-size: 70px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 4px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+span{
+    color: #7a72ff;
+}
+.section2 h1{
+    letter-spacing: 35px;
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    padding: 7px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    border-radius: 10% 10%  10% 10% /50% 50% 50% 50% ;
+    margin-top: 20px;
+    color: #fff;
+    font-family: calibri;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+    font-size: 25px;
+}
+.btn:hover{
+    color: #ffff;
+    background-color: #6e64ff;
+    transition: all ease 0.5s;
+}
+.icon{
+    background-color: #ffff;
+    position: fixed;
+    left: 50px;
+    top: 40%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 8px 5px;
+    z-index: 1;
+}
+.icon a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.icon a:hover .fa-facebook-f{
+    color: #3b5998;
+    
+}
+.icon a:hover .fa-twitter{
+    color: #00acee;
+}
+.icon a:hover .fa-youtube{
+    color: #ff0000;
+}
+.icon a:hover .fa-instagram{
+    color: #3f729b;
 }
