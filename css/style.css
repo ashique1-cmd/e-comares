@@ -230,7 +230,6 @@ span{
     background: linear-gradient(120deg, #6b60ac 20%,#a166f4);
     color: #ffff;
     display: none;
-    display: none;
     animation: fade 0.2s;
 }
 .productbox:hover .bbtn{
@@ -340,14 +339,76 @@ footer p{
     color: #fff;
 }
 /*Desktop*/
-
+@media (min-width:1200px)
 
 
 /*Tablet View*/
+@media (min-width:801px) and (max-width:1199px){
+    .logo {
+        top: 46px;
+        left: 34px;
+    }
+    .searcharia {
+        top: 31px;
+        right:  65px;
+    }
+    .section1{
+        left: 80px;
+        top: 233px;
+    }
+    .section1 img{
+        height: 200px;
+    }
+    .section2 {
+        top: 33%;
+        left: 76%;
+    }
+    .section2 h1, h2{
+         letter-spacing: 2px;
+        font-size: 33px;
+        line-height: 43px;
+    }
+    .productsection{
+        margin-top: -561px;
+    }
+    .product{
 
+    }
+    .productbox{
+        width: 190px;
+        height: 260px;
+        margin: 10px 15px;
+    }
+    .productbox img{
+        height: 129px;
+    }
+    .productbox h6{ font-size: 16px;
+    letter-spacing: 0px;
+}
+.productbox p{
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 7px;
+}
+.about {
+    margin-bottom: 625px;
+}
+.us h1{
+    font-size: 1.5rem;
+
+}
+.us h4{
+    font-size: 16px;
+    font-weight: 200;
+}
+.us p{
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+}
 
 /*Mobile View*/
-@media (max-width: 480px){
+@media (min-width:0px)and (max-width:800px){
   .logo{
     top:30px;
     left: 30px;
@@ -486,7 +547,5 @@ footer p{
     border-radius: 14px;
     font-size: 13px;
  }
-.footer {
-    wieth:120%;
-    text-align:center;
+
 }
