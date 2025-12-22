@@ -230,6 +230,7 @@ span{
     background: linear-gradient(120deg, #6b60ac 20%,#a166f4);
     color: #ffff;
     display: none;
+    display: none;
     animation: fade 0.2s;
 }
 .productbox:hover .bbtn{
@@ -358,7 +359,7 @@ footer p{
    width: 170px;
    height: 45px;
    top: 20px;
-   right: 223px;
+   right: 43px;
   }
   .searchbox input{
     width: 113px;
@@ -366,6 +367,124 @@ footer p{
     font-size: 0.5rem;
   }
   .searchbox input::placeholder{
-    font-size: 12px;
+    font-size: 10px;
+    padding: 5px;
   }
+  .section1{
+    left: 9%;
+    top: 21%;
+  }
+  .section1 img{
+    height: 103px
+  }
+  .section2 {
+    top: 28%;
+    left: 83%;
+  }
+  .section2 h1, h2{
+    letter-spacing: 7px;
+    line-height: 29px;
+    font-size: 25px;
+  }
+  .btn{
+    width: 95px;
+    height: 35px;
+    padding: 1px;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+    font-size: 22px;
+    margin-top: 7px;
+  }
+  .icon{
+    left: 28px;
+    top: 29%;
+    padding: 0px;
+  }
+  .icon a{
+    padding: 17px 9px;
+  }
+  .productsection {
+    width: 95%;
+    margin: 1px auto;
+    padding: 4px 4px;
+    margin-top: -366px;
+    background-size: 750px;
+    margin-left: 53px;
+  }
+
+  .productsection > h3{
+    margin-top: 10x;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+  .productbox {
+    width: 136px;
+    height: 144px;
+    margin: 21px 0px;
+  }
+  .productbox img {
+    height: 51px;
+  }
+  .productbox h6{
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    padding-top: 5px;
+  }
+  .productbox p{
+    font-weight: 50;
+    letter-spacing: 0px;
+    padding-bottom: 0px;
+  }
+  .productbox a{
+    font-size: 10px;
+  }
+  .bbtn{
+    width: 71px;
+    height: 22px;
+    left: 52%;
+    bottom: -30px;
+  }
+  .about {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 400px;
+    margin-left: 20px;
+  }
+  .us{
+    width: 40%;
+  }
+  .us h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 18px;
+  }
+  .us h4{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+ .us p{
+    font-size: 8px;
+    letter-spacing: 0px;
+
+ }
+ .text h3{
+    font-size: 1rem;
+ }
+ .bar{
+    width: 300px;
+    height: 50px;
+ }
+ .batton{
+    width: 65px;
+    height: 30px;
+    border-radius: 14px;
+    font-size: 13px;
+ }
+
 }
