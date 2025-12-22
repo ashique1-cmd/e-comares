@@ -230,6 +230,7 @@ span{
     background: linear-gradient(120deg, #6b60ac 20%,#a166f4);
     color: #ffff;
     display: none;
+    display: none;
     animation: fade 0.2s;
 }
 .productbox:hover .bbtn{
@@ -242,4 +243,248 @@ span{
 .productbox:hover a{
     color: #fff;
     transition: all ease 0.3s;
+}
+.about {
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+.us {
+    width: 40%;
+    font-family: myfiad pro;
+}
+.us img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.us h1{
+    color: #333333;
+    font-size: 3.5rem;
+    margin: 0px;
+    font-family: serif;
+}
+.us h4{
+    color: #333333;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    
+}
+.us p{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.text{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.text h3{
+    font-size: 2rem;
+    color: rgba(56, 56, 56,);
+}
+.bar{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+.bar input{
+    border: none;
+    width: 85%;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+}
+.batton{
+    width: 120px;
+    height: 40px;
+    background-color: #202020;
+    border-radius: 20px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 20px 30px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+.batton:hover {
+    background-color: #6b60ec;
+    transition: all ease 0.5s;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+/*Desktop*/
+
+
+
+/*Tablet View*/
+
+
+/*Mobile View*/
+@media (max-width: 480px){
+  .logo{
+    top:30px;
+    left: 30px;
+  }
+  .logo a{
+    font-size: 20px;
+  }
+  .searcharia{
+   width: 170px;
+   height: 45px;
+   top: 20px;
+   right: 43px;
+  }
+  .searchbox input{
+    width: 113px;
+    height: 30px;
+    font-size: 0.5rem;
+  }
+  .searchbox input::placeholder{
+    font-size: 10px;
+    padding: 5px;
+  }
+  .section1{
+    left: 9%;
+    top: 21%;
+  }
+  .section1 img{
+    height: 103px
+  }
+  .section2 {
+    top: 28%;
+    left: 83%;
+  }
+  .section2 h1, h2{
+    letter-spacing: 7px;
+    line-height: 29px;
+    font-size: 25px;
+  }
+  .btn{
+    width: 95px;
+    height: 35px;
+    padding: 1px;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+    font-size: 22px;
+    margin-top: 7px;
+  }
+  .icon{
+    left: 28px;
+    top: 29%;
+    padding: 0px;
+  }
+  .icon a{
+    padding: 17px 9px;
+  }
+  .productsection {
+    width: 95%;
+    margin: 1px auto;
+    padding: 4px 4px;
+    margin-top: -366px;
+    background-size: 750px;
+    margin-left: 53px;
+  }
+
+  .productsection > h3{
+    margin-top: 10x;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+  .productbox {
+    width: 136px;
+    height: 144px;
+    margin: 21px 0px;
+  }
+  .productbox img {
+    height: 51px;
+  }
+  .productbox h6{
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    padding-top: 5px;
+  }
+  .productbox p{
+    font-weight: 50;
+    letter-spacing: 0px;
+    padding-bottom: 0px;
+  }
+  .productbox a{
+    font-size: 10px;
+  }
+  .bbtn{
+    width: 71px;
+    height: 22px;
+    left: 52%;
+    bottom: -30px;
+  }
+  .about {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 400px;
+    margin-left: 20px;
+  }
+  .us{
+    width: 40%;
+  }
+  .us h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 18px;
+  }
+  .us h4{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+ .us p{
+    font-size: 8px;
+    letter-spacing: 0px;
+
+ }
+ .text h3{
+    font-size: 1rem;
+ }
+ .bar{
+    width: 300px;
+    height: 50px;
+ }
+ .batton{
+    width: 65px;
+    height: 30px;
+    border-radius: 14px;
+    font-size: 13px;
+ }
+
 }
