@@ -486,5 +486,7 @@ footer p{
     border-radius: 14px;
     font-size: 13px;
  }
-
+.footer {
+    wieth:120%;
+    text-align:center;
 }
